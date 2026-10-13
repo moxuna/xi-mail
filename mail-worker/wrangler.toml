@@ -9,11 +9,11 @@ enabled = true
 [[d1_databases]]
 binding = "db"
 database_name = "xi-mail"
-database_id = "<YOUR_D1_DATABASE_ID>"
+database_id = "a4d9b9e7-66c7-4be7-b1aa-caa3a78931ff"
 
 [[kv_namespaces]]
 binding = "kv"
-id = "<YOUR_KV_NAMESPACE_ID>"
+id = "f3cde51be53e4e25bf63ad2a3a01f52f"
 
 [[r2_buckets]]
 binding = "r2"
@@ -33,9 +33,8 @@ crons = ["0 16 * * *"]
 
 [vars]
 orm_log = false
-domain = ["example.com", "mail.example.com"]
-admin = "admin@example.com"
-jwt_secret = "<YOUR_JWT_SECRET_MIN_32_CHARS>"
+domain = ["jklove.eu.org"]
+admin = "admin@ejklove.eu.org"
 
 # Uncomment to enable OAuth (LinuxDo)
 # linuxdo_switch = "false"
