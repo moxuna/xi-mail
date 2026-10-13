@@ -34,7 +34,7 @@ crons = ["0 16 * * *"]
 [vars]
 orm_log = false
 domain = ["jklove.eu.org"]
-admin = "admin@ejklove.eu.org"
+admin = "admin@jklove.eu.org"
 
 # Uncomment to enable OAuth (LinuxDo)
 # linuxdo_switch = "false"
