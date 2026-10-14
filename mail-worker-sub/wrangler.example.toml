@@ -5,13 +5,13 @@ compatibility_date = "2025-06-04"
 [[d1_databases]]
 binding = "db"
 database_name = "xi-mail-sub"
-database_id = "<YOUR_D1_DATABASE_ID>"
+database_id = "cab86208-c46b-419e-bc67-0cef0322a73a"
 
 [triggers]
 crons = ["0 16 * * *"]
 
 [vars]
-api_token = "<YOUR_API_TOKEN_MIN_32_CHARS>"
-domain = ["sub-domain.com"]
+# api_token = "<YOUR_API_TOKEN_MIN_32_CHARS>"
+domain = ["gmaila.eu.org","gmaili.eu.org"]
 # 邮件保留天数，超过后由定时任务自动删除；0 或不配置表示永久保留
-auto_clean_days = 0
+auto_clean_days = 30
